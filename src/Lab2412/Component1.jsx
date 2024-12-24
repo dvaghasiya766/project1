@@ -1,4 +1,5 @@
 import * as React from "react";
+import HtmlComponent from "./htlcomp";
 
 class Component2 extends React.Component {
   render() {
@@ -43,6 +44,7 @@ class Component1 extends React.Component {
           </strong>
         </p>
         <Component2 />
+        <HtmlComponent />
         <button className="btn btn-primary">Click Me</button>
       </div>
     );
