@@ -27,7 +27,7 @@ class HtmlComponent extends React.Component {
               Email Address
             </label>
             <input
-              type="text"
+              type="email"
               className="form-control"
               id="exampleFormControlInput1"
               placeholder="name@example.com"
