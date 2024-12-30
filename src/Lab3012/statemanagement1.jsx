@@ -4,21 +4,21 @@ class StateABC extends React.Component {
     first: false,
     second: 1.23,
     thired: "Hello",
-    fourth: [1, 2, 3],
+    fourth: [1, 2, 3, "yellow", "green"],
   };
   render() {
     const { first, second, thired, fourth } = this.state;
     return (
-      <div>
+      <div style={{ backgroundColor: fourth[4] }}>
         <button disabled={first}>My Button</button>
-        <p>
+        <p style={{ color: fourth[3] }}>
           Value of variable is: <strong>{second}</strong>
         </p>
         <p>
           Greeting statement: <strong>{thired}</strong>
         </p>
         <p>
-          Array is : <strong>{typeof(fourth)}</strong>
+          Array is : <strong>{typeof fourth}</strong>
         </p>
       </div>
     );
