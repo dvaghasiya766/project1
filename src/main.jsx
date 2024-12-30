@@ -1,11 +1,13 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import Component1 from "./Lab2412/component1";
+import StateABC from "./Lab3012/statemanagement1";
+// import Component1 from "./Lab2412/component1";
 // import TimeTable from "./Lab2412/timetable";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Component1 />
+    {/* <Component1 /> */}
     {/* <TimeTable /> */}
+    <StateABC />
   </StrictMode>
 );
