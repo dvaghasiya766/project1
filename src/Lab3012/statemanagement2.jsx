@@ -1,11 +1,23 @@
 import * as React from "react";
-class StateABC extends React.Component {
+class StateXYZ extends React.Component {
   state = {
     first: false,
     second: 1.23,
     thired: "Hello",
     fourth: ["yellow", "green", "orange", "red"],
   };
+  constructor() {
+    super();
+    setTimeout(() => {
+      this.setState({
+        first: true,
+        second: 2,
+        thired: "Goodbye",
+        fourth: ["yellow", "purple", "white", "lightpink"],
+      });
+    }, 3000);
+    console.log("State ABC");
+  }
   render() {
     const { first, second, thired, fourth } = this.state;
     return (
@@ -14,14 +26,14 @@ class StateABC extends React.Component {
         <p style={{ color: fourth[0] }}>
           Value of variable is: <strong>{second}</strong>
         </p>
-        <p>
+        <p style={{ color: fourth[2] }}>
           Greeting statement: <strong>{thired}</strong>
         </p>
-        <p>
+        <p style={{ color: fourth[3] }}>
           Array is : <strong>{typeof fourth}</strong>
         </p>
       </div>
     );
   }
 }
-export default StateABC;
+export default StateXYZ;
