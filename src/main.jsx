@@ -4,10 +4,10 @@ import { createRoot } from "react-dom/client";
 // import StateXYZ from "./Lab3012/statemanagement2";
 // import StatMerge from "./Lab3012/statemarge";
 // import Component1 from "./Lab2412/component1";
-import TimeTable from "./Lab2412/timetable";
-import MyCustComp from "./Lab3112/propexamp3";
-import Purefunc1 from "./Lab3112/purefunc1";
-import MyCustButton from "./Lab3112/purefunc2";
+// import TimeTable from "./Lab2412/timetable";
+// import MyCustComp from "./Lab3112/propexamp3";
+// import Purefunc1 from "./Lab3112/purefunc1";
+// import MyCustButton from "./Lab3112/purefunc2";
 import HookExample1 from "./Lab3112/hookexamp1";
 
 createRoot(document.getElementById("root")).render(
