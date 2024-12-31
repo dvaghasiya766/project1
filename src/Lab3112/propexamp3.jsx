@@ -7,6 +7,16 @@ class MyCustComp extends React.Component {
     var2: "buttons",
     var3: ["apple", "orange", "banana", "guava"],
   };
+  constructor() {
+    super();
+    setTimeout(() => {
+      this.setState({
+        var1: true,
+        var2: "Responsive",
+        var3: ["kiwi", "mango", "peach", "plum"],
+      });
+    }, 1000);
+  }
   render() {
     const { var1, var2, var3 } = this.state;
     return (
