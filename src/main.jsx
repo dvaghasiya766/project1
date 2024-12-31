@@ -7,6 +7,7 @@ import { createRoot } from "react-dom/client";
 import TimeTable from "./Lab2412/timetable";
 import MyCustComp from "./Lab3112/propexamp3";
 import Purefunc1 from "./Lab3112/purefunc1";
+import MyCustButton from "./Lab3112/purefunc2";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -16,9 +17,12 @@ createRoot(document.getElementById("root")).render(
     {/* <StateABC /> */}
     {/* <StateXYZ /> */}
     {/* <StatMerge /> */}
-    <MyCustComp />
+    {/* <MyCustComp /> */}
     {/* <Purefunc1 var1={true} var2={"Hello"} />
     <Purefunc1 var1={false} var2={"How are you"} /> */}
-
+    <MyCustButton />
+    <MyCustButton var2={"Hello"} />
+    <MyCustButton var1={true} />
+    <MyCustButton var1={true} var2={"Hello"} />
   </StrictMode>
 );

@@ -12,7 +12,7 @@ const Timetable = () => {
       friday: "English",
     },
     {
-      time: "9:00 AM - 10:00 PM",
+      time: "9:00 AM - 10:00 AM",
       monday: "English",
       tuesday: "History",
       wednesday: "PE",
@@ -37,7 +37,7 @@ const Timetable = () => {
       friday: "Math",
     },
     {
-      time: "11:00 PM - 11:40 PM",
+      time: "11:00 AM - 11:40 AM",
       monday: "History",
       tuesday: "PE",
       wednesday: "Math",
@@ -54,15 +54,15 @@ const Timetable = () => {
     },
 
     {
-      time: "11:40 PM - 12:30 PM",
-      monday: "Lunch Break",
-      tuesday: "Lunch Break",
-      wednesday: "Lunch Break",
-      thursday: "Lunch Break",
-      friday: "Lunch Break",
+      time: "12:30 PM - 1:20 PM",
+      monday: "PE",
+      tuesday: "Math",
+      wednesday: "Science",
+      thursday: "English",
+      friday: "History",
     },
     {
-      time: "2:00 PM - 3:00 PM",
+      time: "1:20 PM - 2:10 PM",
       monday: "PE",
       tuesday: "Math",
       wednesday: "Science",
