@@ -37,8 +37,11 @@ createRoot(document.getElementById("root")).render(
     {/* <StateExample1 /> */}
     {/* <FontSelector/> */}
     <Task1 />
+    <hr />
     <Task2 />
+    <hr />
     <Task3 />
+    <hr />
     <Task4 />
   </StrictMode>
 );

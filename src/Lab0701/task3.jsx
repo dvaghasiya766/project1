@@ -11,7 +11,9 @@ function Task3() {
     <div>
       <h1>Toggle Text Visibility</h1>
       <textarea
-        placeholder="Type something here..."
+              placeholder="Type something here..."
+              cols={50}
+              rows={4}
         value={text}
         onChange={(e) => setText(e.target.value)}
       />

@@ -25,7 +25,6 @@ function Task1() {
           onChange={(e) => setNum2(Number(e.target.value) || 0)}
         />
       </label>
-      <hr />
       <h2>Results:</h2>
       <p>Addition: {num1 + num2}</p>
       <p>Subtraction: {num1 - num2}</p>
