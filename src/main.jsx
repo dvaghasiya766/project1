@@ -2,6 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 // import FontSelector from "./Lab0601/StateExample1";
 import Task1 from "./Lab0701/task1";
+import Task2 from "./Lab0701/task2";
 // import HookExample from "./Lab0601/hookexmp";
 // import StateExample1 from "./Lab0601/StateExample";
 // import StateABC from "./Lab3012/statemanagement1";
@@ -34,5 +35,6 @@ createRoot(document.getElementById("root")).render(
     {/* <StateExample1 /> */}
     {/* <FontSelector/> */}
     <Task1 />
+    <Task2 />
   </StrictMode>
 );
