@@ -7,10 +7,6 @@ function Task3() {
   const [text, setText] = useState(""); // Stores the user input
   const [isVisible, setIsVisible] = useState(true); // Controls visibility
 
-  const toggleVisibility = () => {
-    setIsVisible(!isVisible);
-  };
-
   return (
     <div>
       <h1>Toggle Text Visibility</h1>
@@ -20,7 +16,7 @@ function Task3() {
         onChange={(e) => setText(e.target.value)}
       />
       <br />
-      <button onClick={toggleVisibility}>
+      <button onClick={() => setIsVisible(!isVisible)}>
         {isVisible ? "Hide Txt" : "Show Txt"}
       </button>
       <div style={{ display: isVisible ? "block" : "none" }}>
