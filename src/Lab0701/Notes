@@ -1,0 +1,7 @@
+Exercise 1
+
+Task-List :
+    1. Create a react functional component that will take 2 numbers and print addtion, subtractions, multiplication and division
+    2. Create a react pure functional component that will take email address as input and print wether it is a valid email address or not
+    3. Create a react pure functional component that will toggle the visibility of the text written by user take one text is visible button text should be "Hide Txt" when text is hidden text should be "Show Txt"
+    4. Create a react pure functional component that will take text input and print total number of characters.

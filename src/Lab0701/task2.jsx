@@ -1,0 +1,1 @@
+//     2. Create a react pure functional component that will take email address as input and print wether it is a valid email address or not.
