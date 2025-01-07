@@ -3,6 +3,8 @@ import { createRoot } from "react-dom/client";
 // import FontSelector from "./Lab0601/StateExample1";
 import Task1 from "./Lab0701/task1";
 import Task2 from "./Lab0701/task2";
+import Task3 from "./Lab0701/task3";
+import Task4 from "./Lab0701/task4";
 // import HookExample from "./Lab0601/hookexmp";
 // import StateExample1 from "./Lab0601/StateExample";
 // import StateABC from "./Lab3012/statemanagement1";
@@ -36,5 +38,7 @@ createRoot(document.getElementById("root")).render(
     {/* <FontSelector/> */}
     <Task1 />
     <Task2 />
+    <Task3 />
+    <Task4 />
   </StrictMode>
 );

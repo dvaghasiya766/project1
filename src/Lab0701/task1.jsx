@@ -13,7 +13,7 @@ function Task1() {
         <input
           type="number"
           value={num1}
-          onChange={(e) => setNum1(parseFloat(e.target.value) || 0)}
+          onChange={(e) => setNum1(Number(e.target.value) || 0)}
         />
       </label>
       <br />
@@ -22,7 +22,7 @@ function Task1() {
         <input
           type="number"
           value={num2}
-          onChange={(e) => setNum2(parseFloat(e.target.value) || 0)}
+          onChange={(e) => setNum2(Number(e.target.value) || 0)}
         />
       </label>
       <hr />

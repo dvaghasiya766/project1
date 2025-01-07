@@ -31,8 +31,8 @@ function Task2() {
       <p>
         {email
           ? isValid
-            ? "✅ Valid Email Address"
-            : "❌ Invalid Email Address"
+            ? "Valid Email Address"
+            : "Invalid Email Address"
           : "Please enter an email"}
       </p>
     </div>
