@@ -1,10 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import APIRequest from "./Lab1801/hookuseeffect";
 // import FontSelector from "./Lab0601/StateExample1";
-import Task1 from "./Lab0701/task1";
-import Task2 from "./Lab0701/task2";
-import Task3 from "./Lab0701/task3";
-import Task4 from "./Lab0701/task4";
+// import Task1 from "./Lab0701/task1";
+// import Task2 from "./Lab0701/task2";
+// import Task3 from "./Lab0701/task3";
+// import Task4 from "./Lab0701/task4";
 // import HookExample from "./Lab0601/hookexmp";
 // import StateExample1 from "./Lab0601/StateExample";
 // import StateABC from "./Lab3012/statemanagement1";
@@ -36,12 +37,11 @@ createRoot(document.getElementById("root")).render(
     {/* <HookExample /> */}
     {/* <StateExample1 /> */}
     {/* <FontSelector/> */}
-    <Task1 />
-    <hr />
-    <Task2 />
-    <hr />
-    <Task3 />
-    <hr />
-    <Task4 />
+    {/* <Task1 />
+        <Task2 />
+        <Task3 />
+        <Task4 /> 
+    */}
+    <APIRequest />
   </StrictMode>
 );
