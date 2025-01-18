@@ -1,0 +1,31 @@
+/* CountDown.css */
+.countdown-container {
+  background: url("https://wallpaperaccess.com/full/22917.jpg") no-repeat
+    center center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  border: 2px solid #d4af37;
+  border-radius: 10px;
+  font-family: "Harry Potter", serif;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.countdown-display {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.countdown-display span {
+  padding: 0 10px;
+}

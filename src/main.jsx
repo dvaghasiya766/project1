@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import APIRequest from "./Lab1801/hookuseeffect";
+import CountDown from "./Lab1801/countDown";
 // import FontSelector from "./Lab0601/StateExample1";
 // import Task1 from "./Lab0701/task1";
 // import Task2 from "./Lab0701/task2";
@@ -42,6 +43,7 @@ createRoot(document.getElementById("root")).render(
         <Task3 />
         <Task4 /> 
     */}
-    <APIRequest />
+    {/* <APIRequest /> */}
+    <CountDown />
   </StrictMode>
 );
