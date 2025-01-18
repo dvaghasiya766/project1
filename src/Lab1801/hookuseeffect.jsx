@@ -11,14 +11,17 @@ function fethcUserData() {
 function APIRequest() {
   const [name, setName] = React.useState("Loading...");
   const [age, setAge] = React.useState("Data will display...");
-  fethcUserData()
-    .then((userData) => {
-      setName(userData.name);
-      setAge(userData.age);
-    })
-    .catch((error) => {
-      console.error("Error fetching user data:", error);
-    });
+
+  React.useEffect(() => {
+    fethcUserData()
+      .then((userData) => {
+        setName(userData.name);
+        setAge(userData.age);
+      })
+      .catch((error) => {
+        console.error("Error fetching user data:", error);
+      });
+  });
   return (
     // Cleanup function to cancel the API call if component unmounts
     <div>
