@@ -1,2 +1,4 @@
 1. Implement Countdown Timer with useeffect
 2. Pass array to string as arguments convert array to unordered list
+3. Implement image changer with useeffect
+    Create a list of 4 images. changer image at intervals of 4 seconds.
