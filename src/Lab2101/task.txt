@@ -1,0 +1,9 @@
+create a registration form with following attributes
+    1. Crickerer name (Text Box) Minimum 8 CHaractors
+    2. Gender (Radio Buttom)
+    3. Email (Text Box) Email Format Validation
+    4. Matches (ChackBox) ODI, TEST, T20, DOMESTIC
+    5. Password and Confirm Password -- Both should be same
+    6. Country (Dropdown)
+    7. Save Buttom
+When user clicks on save button all above details should be displayed below form in table format.
