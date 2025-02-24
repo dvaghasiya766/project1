@@ -1,7 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import CustomComponent from "./Lab2101/compo1";
-import RegistrationForm from "./Lab2101/task1";
+import ReducerExmp from "./Lab2402/reducerexample";
+// import CustomComponent from "./Lab2101/compo1";
+// import RegistrationForm from "./Lab2101/task1";
+// import UserContextExample from "./Lab0302/file3";
 // import FontSelector from "./Lab0601/StateExample1";
 // import Task1 from "./Lab0701/task1";
 // import Task2 from "./Lab0701/task2";
@@ -46,7 +48,9 @@ createRoot(document.getElementById("root")).render(
     {/* <APIRequest /> */}
     {/* <CountDown /> */}
     {/* <ImageComponent /> */}
-    <CustomComponent />
-    <RegistrationForm />
+    {/* <CustomComponent />
+    <RegistrationForm /> */}
+    {/* <UserContextExample /> */}
+    <ReducerExmp />
   </StrictMode>
 );

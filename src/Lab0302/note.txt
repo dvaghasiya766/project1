@@ -1,0 +1,3 @@
+If we are use Limited global variable then useContext is sufficient,
+else if we are using some more global variable then zuStand is sufficient,
+otherwise we just use the Redux.
