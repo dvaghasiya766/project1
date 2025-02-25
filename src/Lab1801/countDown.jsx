@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import "./CountDown.css"; // Ensure this file exists and is properly imported
-
+// import "./CountDown.css"; // Ensure this file exists and is properly imported
+import "./CountDown.css";
 function CountDown() {
   const [totalSeconds, setTotalSeconds] = useState(2);
 

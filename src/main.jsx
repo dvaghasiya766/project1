@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import ReducerExmp from "./Lab2402/reducerexample";
+import Counter from "./Lab2402/reducerexmp";
 // import CustomComponent from "./Lab2101/compo1";
 // import RegistrationForm from "./Lab2101/task1";
 // import UserContextExample from "./Lab0302/file3";
@@ -52,5 +53,6 @@ createRoot(document.getElementById("root")).render(
     <RegistrationForm /> */}
     {/* <UserContextExample /> */}
     <ReducerExmp />
+    <Counter />
   </StrictMode>
 );
